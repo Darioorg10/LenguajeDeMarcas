@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Web2</title>
+		<link href="css/estilos.css" rel="stylesheet"/>
+		<link href="imagenes/favicon.png" rel="shortcut icon"/>
+	</head>
+	<body>
+		
+		<div id="contenedor">
+			<div id="cabecera">
+				<img src="imagenes/nombre.jpg" alt="Logo" title="Logo"/>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Jugar</a></li>
+					<li><a href="#">Apostar</a></li>
+					<li><a href="#">Estadísticas</a></li>
+					<li><a href="#">Cómo jugar</a></li>
+					<li><a href="#">Tienda Virtual</a></li>
+					<li><a href="#">Foro</a></li>
+					<li><a href="#">Enlaces</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</div>
+			<div id="acceso">
+				<form action="index.html" method="post">
+					<div>
+						<label for="usuario_log">Nombre de <br/>usuario:<br/><a href="#">¿Aún no te has<br/>registrado?</a></label>
+						<input type="text" id="usuario_log" name="usuario_log"/>
+					</div>
+					<div>
+						<label for="clave_log">Contraseña:<br/><a href="#">¿Te has<br/>olvidado?</a></label>
+						<input type="password" id="clave_log" name="clave_log"/>
+					</div>
+					<div>
+						<input type="submit" name="btnLogin" value="Login>>"/>
+					</div>
+				</form>
+			</div>
+			<div id="centro">
+				<div id="izq">
+					<h4>Comunio.es - El manager del fútbol online</h4>
+					<p>
+						<img src="imagenes/bg_emotion.jpg" alt="Manager" title="Manager" class="cienxcien"/>
+					</p>
+					<h4 id="reg">Regístrate <span class="amarillo">gratis</span>:</h4>
+					<form action="index.html" method="post">
+					<div class="form">
+						<label class="negr" for="nombre">Nombre:*</label>
+						<input type="text" id="nombre" name="nombre"/>
+					</div>
+					<div class="form">
+						<label class="negr" for="apellido">Apellido:*</label>
+						<input type="text" id="apellido" name="apellido"/>
+					</div>
+					<div class="form">
+						<input type="text" id="usuario" name="usuario"/>
+						<label class="negr" for="usuario">Nombre usuario:*<br/><span>(máx. 10  caracteres)</span></label>						
+					</div>
+					<div class="form">
+						<input type="password" id="clave" name="clave"/>
+						<label class="negr" for="clave">Contraseña:*<br/><span>(máx 8 carácteres)</span></label>						
+					</div>
+					<div class="form">
+						<label class="negr" for="clave2">Repita Contraseña:*</label>
+						<input type="password" id="clave2" name="clave2"/>
+					</div>
+					<div class="form">
+						<label class="negr" for="email">Email:*</label>
+						<input type="text" id="email" name="email"/>
+					</div>
+					<div class="form">
+						<input type="checkbox" id="condiciones" name="condiciones"/>
+						<label for="condiciones">He leído los <a href="#">Términos y condiciones</a> y los acepto.*</label>						
+					</div>
+					<div class="form">
+						<input type="radio" id="azar" name="comunidad"  value="azar" checked/>
+						<label for="azar">Entrar a una comunidad al azar:</label>						
+					</div>
+					<div class="form">
+						<input type="radio" id="existente" name="comunidad" value="existente"/>
+						<label for="existente">Entrar a una comunidad existente:</label>						
+					</div>
+					<div class="form">
+						<label>*campo obligatorio</label>						
+					</div>
+					<div class="form_esp">
+						<input type="submit" name="btnSinRegistro" value="Entrar sin registrarse"/>
+						<input class="verde_claro" type="submit" name="btnGratuito" value="Jugar gratuitamente"/>		
+					</div>
+					
+					</form>
+				</div>
+				<div id="der">
+					<h4>Tendencia de las apuestas</h4>
+					<p>
+						<img src="imagenes/tendencia.jpg" alt="Tendencia" Title="Tendencia" class="cienxcien"/>
+					</p>
+					<p id="p_esp">
+						- Publicidad -
+					</p>
+					<p>
+						<img src="imagenes/amazon.jpg" alt="Amazon" Title="Amazon"/>
+						<img src="imagenes/g_play.jpg" alt="Google" Title="Google"/>
+					</p>
+					<p>
+						<img src="imagenes/app_store.jpg" alt="Store" Title="Store"/>
+						<img src="imagenes/windows_phone.jpg" alt="Windows" Title="Windows"/>
+					</p>
+				</div>
+			</div>
+			<div id="pie">
+				<p class="centrar">
+					<a href="#">Su publicidad aquí</a> - <a class="amarillo" href="#">Ayuda</a> - <a href="#">Características</a> - <a href="#">¿Sugerencias, preguntas, deseos o problemas con el website?</a> - <a href="#">Enlaces</a> - <a href="#">Contacto</a><br/>&copy; 2000-2015 comunio.net
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+html {background:#DBFFDB}
+body {border:10px solid #B8EAAD;padding:0 2%;font-family:monospace}
+h1 {text-align:center;background:#B8EAAD;border:solid 5px #F1FFF1;}
+h3, p {text-align:justify}
+h3 {background:#FCD4F2;border:solid #B89BB1 5px;border-bottom:none;margin-bottom:0;padding:0 1%}
+p {border:solid #B89BB1;margin-top:0;border-top:0;padding:1%}
+hr {border:dashed black 2px}
+.extraido {border:0;border-top:dashed black 2px;text-align:right;
+	margin:0;padding:0;font-style:italic}

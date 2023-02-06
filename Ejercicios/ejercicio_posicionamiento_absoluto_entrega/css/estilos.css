@@ -1,0 +1,24 @@
+
+#p1{text-align:right}
+
+#p2{text-align:center}
+
+div{width:60px;height:60px;position:absolute}
+
+.cuadro1{border:2px solid blue;top:0;left:0}
+
+.cuadro2{border:2px solid green;top:70px;left:100px}
+
+.cuadro3{width:400px;height:400px;border:2px solid cyan;top:50%;right:50%;margin-right:-200px;margin-top:-200px}
+
+.cuadro4{border:cyan 2px solid;top:25%;right:25%}
+
+.cuadro5{border:solid yellow 2px;bottom:50%;right:50%;}
+
+.cuadro6{border:2px red solid;top:50%;left:50%;}
+
+.cuadro7{border:2px pink solid;top:50%;right:0}
+
+.cuadro8{border:2px solid green;bottom:0;left:0}
+
+.lineaV{border:dotted #CCC 1px;height:100%;width:0;left:50%}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Menú desplegable</title>
+		<link href="css/estilos.css" rel="stylesheet"/>
+	</head>
+	
+	<body>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li class="desplegable"><a href="#">Servicios</a>
+				<ul>
+					<li><a href="#">Submenu1</a></li> 
+					<li><a href="#">Submenu2</a></li>
+					<li><a href="#">Submenu3</a></li>
+					<li><a href="#">Submenu4</a>
+						<ul>
+							<li class="desplegable"><a href="#">Submenu1</a></li>
+							<li><a href="#">Submenu2</a></li>
+							<li><a href="#">Submenu3</a></li>
+							<li><a href="#">Submenu4</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">Acerca de</a>
+				<ul>
+					<li><a href="#">Submenu1</a></li>
+					<li><a href="#">Submenu2</a></li>
+					<li><a href="#">Submenu3</a></li>
+					<li><a href="#">Submenu4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</body>
+</html>
+
+<!-- A las listas que están dentro de un li, display:none, solo los que sean hijo directo del padre sobre el que estás poniendo el ratón--!>

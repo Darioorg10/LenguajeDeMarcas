@@ -1,0 +1,22 @@
+body { 
+  font-family: sans-serif; 
+  text-align: justify; 
+}
+
+h2, h3, h4, h5, h6 { 
+  font-size: 120%; 
+  font-weight: normal; 
+  padding:0.5em;
+}
+
+h1 {border:solid 5px black;text-align:center}
+
+h2 {border-left:double 15px red}
+
+h3 {border-top:dotted 5px cyan;border-left:dotted 20px fuchsia; border-right:10px fuchsia dotted;border-bottom:cyan 15px dotted}
+
+h4 {border-top:double 15px lime;border-bottom:double blue 10px}
+
+h5 {border-top:dashed 10px red;border-left:solid 10px black; border-right:10px solid black;border-bottom:10px dotted black}
+
+h6 {border-top:10px dotted black;border-left:10px dotted red;border-bottom:10px dashed black;border-right:10px solid black}

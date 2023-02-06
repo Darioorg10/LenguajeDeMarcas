@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+	background-image:url("../imagenes/fondo.jpg");
+	background-size:cover; /* Sirve para que la imagen se adapte al tamaño del dispositivo */
+}
+
+#contenedor{
+	width:830px;
+	margin:0 auto;
+}
+
+#cabecera{
+	background-image:url("../imagenes/cabecera.jpg")
+}
+
+#menu ul{
+	list-style:none;
+	overflow:hidden;
+}
+
+#menu{
+	height:33px;
+	background-image:url("../imagenes/fondo_menu.jpg")
+}
+
+#menu li{
+	float:left;
+}
+
+#menu li a{
+	display:block;
+	text-decoration:none;
+	color:white;
+	padding:0 0.5em;
+	line-height:33px;
+}
+
+#menu li a:hover{
+	background-color:#C6E2BC;
+	color:#175512;
+}
+
+#acceso{
+	background-color:#175512;
+	padding:0.25em 0;
+}
+
+#acceso form{
+	background-color:#0F340B;
+	overflow:hidden;
+	color:white;
+}
+
+#acceso form div{
+	width:33.333%;
+	float:left;
+	padding:0.5em 0.75em;
+}
+
+#acceso form a{
+	font-size:12px;
+	color:white;
+}
+
+#acceso form label,#acceso form input{
+	width:40%;
+	float:left;
+	margin:0 5%;
+}
+
+#centro{
+	overflow:hidden;
+	background-color:#175512;
+	padding:1em 0.25em;
+}
+
+#centro h4{
+	color:white;
+	background-color:#0F340B;
+	border-top-right-radius:10px;
+	padding:0.25em;
+}
+
+#izq{
+	width:60%;
+	float:left;
+	margin-right:2%;
+}
+
+.form{
+	background-color:#C3E3BE;
+	border-bottom:#0F340B solid 1px;
+	padding:0.5em;
+}
+
+.form input[type="text"], .form input[type="password"]{
+	width:50%;
+	float:right;
+}
+
+.negr{
+	font-weight:bold;
+	color:#0F340B;
+}
+
+.form .negr span{
+	font-size:0.8em;
+}
+
+.form_esp{
+	padding:0.5em;
+	background-color:#0F340B;
+}
+
+.form_esp input{
+	border:none;
+	padding:0.25em;
+}
+
+.verde_claro{
+	color:white;
+	background-color:#33A92E;
+}
+
+#der{
+	width:38%;
+	float:left;
+}
+
+#der p{
+	text-align:center;
+}
+
+#der #p_esp{
+	text-align:left;
+	margin:0.5em 0;
+	color:white;
+}
+
+#pie{
+	height:66px;
+	background-image:url("../imagenes/fondo_pie.jpg");
+	padding:1em;
+	text-align:center;
+	font-size:0.75em;
+	color:white;
+	line-height:1.5em;
+}
+
+#pie a{
+	color:white;
+}
+
+.amarillo, #pie a.amarillo {
+	color:yellow;
+}
+
+.cienxcien{
+	width:100%;
+}
+
+#reg{
+	margin-top:1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

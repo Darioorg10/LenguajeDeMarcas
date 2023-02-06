@@ -1,0 +1,52 @@
+* {
+	margin:0;
+	padding:0;
+  	box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+ul{
+	background:black;
+	color:black;
+	width:40%;
+	overflow:hidden;
+	text-align:center;
+	margin-left:25%;
+	padding:0.5em;
+}
+
+li{
+	width:25%;
+	float:left;
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+a:hover{	
+	background-color:grey;	
+}
+
+ul >li > ul > li{
+	display:none;	
+}
+
+ul > li > ul >li:hover{
+	display:block;
+	font-size:40px;
+	background-color:gray;
+}
+
+
+
+
+

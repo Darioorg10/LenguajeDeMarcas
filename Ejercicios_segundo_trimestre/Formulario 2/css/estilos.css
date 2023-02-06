@@ -1,0 +1,23 @@
+#esp{
+	background:none;
+	border:none;
+	color:blue;
+	text-decoration:underline;
+	cursor:pointer; /* Para que se ponga la manita al ponerse encima */
+}
+
+input[type="text"]{ /* Los inputs cuyo atributo type sea text*/
+	padding:0.5em;
+}
+
+input:focus{ /* Para cuando hemos clickeado por ejemplo dentro de un input text */
+	background-color:gray;
+	border:5px solid blue;
+}
+
+label{
+	width:10%;
+	float:left;
+}
+
+

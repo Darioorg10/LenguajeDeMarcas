@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Ejemplo de formulario</title>
+		<meta charset="UTF-8"/>
+		<link href="images/favicon.png" rel="shortcut icon"/>
+	</head>
+	<body>
+		<h1 align="center">E N C U E S T A &nbsp;&nbsp;&nbsp; I N F O R M Á T I C A</h1>
+		<form action="index.html" method="get">
+			<fieldset>
+				<legend>Datos personales</legend>
+				<label for="edad">Edad:</label><input type="text" name="edad" id="edad" size="3" /> &nbsp;&nbsp;
+				<label>Sexo: </label><input type="radio" name="sexo" id="hombre" value="hombre" /><label for="hombre">Hombre</label> <input type="radio" name="sexo" id="mujer" value="mujer" /><label for="mujer">Mujer</label> &nbsp;&nbsp;
+				<label for="estudiando">Estás estudiando: </label>
+				<select name="estudiando" id="estudiando">
+					<option> </option>
+					<option>Primaria</option>
+					<option>ESO</option>
+					<option>Bachillerato</option>
+					<option>FPM</option>
+					<option>FPS</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Preguntas generales</legend>
+				<label>¿Tienes ordenador en tú casa?</label><input type="radio" name="tengo_ordenador" value="si_ordenador" id="si_ordenador"/><label for="si_ordenador">Si </label><input type="radio" name="tengo_ordenador" value="no_ordenador" id="no_ordenador"/><label for="no_ordenador">No </label> <br/>
+				<label>¿Lo utilizas sólo tú o lo compartes con otras personas?</label><input type="radio" name="compartir" value="propio" id="propio"/><label for="propio">Propio</label> <input type="radio" name="compartir" value="compartido" id="compartido"/><label for="compartido">Compartido</label> <br/>
+				<label>En períodos de clase:</label> <br/>
+				<ul>
+					<li>
+						<label for="dias">¿Cuántos días a la semana sueles encender el ordenador?</label>
+						<select name="dias" id="dias">
+							<option></option>
+							<option>1-2</option>
+							<option>3-5</option>
+							<option>6-7</option>
+						</select>
+					</li>
+					<li>
+						<label for="horas">¿Cuántas horas diarias sueles gastar en el ordenador (cada día)? </label>
+						<select name="horas" id="horas">
+							<option></option>
+							<option>1-4</option>
+							<option>5-8</option>
+							<option>Más</option>
+						</select>
+					</li>
+				</ul>
+				<label>En períodos de vacaciones</label>
+				<ul>
+					<li>
+					<label for="diasvac">¿Cuántos días a la semana sueles encender el ordenador?</label> 
+					<select name="diasvac" id="diasvac">
+						<option></option>
+						<option>1-2</option>
+						<option>3-5</option>
+						<option>6-7</option>
+					</select>
+					</li>
+					<li>
+					<label for="horasvac">¿Cuántas horas diarias sueles gastar en el ordenador (cada día)? </label>
+					<select name="horasvac" id="horasvac">
+						<option></option>
+						<option>1-4</option>
+						<option>5-8</option>
+						<option>Más</option>
+					</select>
+					</li>
+				</ul>
+				<label>¿A qué dedicas tu tiempo en el ordenador?</label>
+			</fieldset>
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,35 @@
+*{padding:0;margin:0}
+
+caption{font-size:75%}
+
+.azul{background:blue;padding:0.2em}
+
+.rojo{background:red;padding:0.2em}
+
+.verde{background:green;padding:0.2em}
+
+.amarillo{background:yellow;padding:0.2em}
+
+#css{position:fixed;right:10px;bottom:10px;}
+
+#indice{position:fixed;left:0;margin-left:5px}
+
+h1{text-transform:uppercase;background:#C4D4E9;text-align:right;font-style:italic;padding:5px}
+
+address{position:fixed;left:0;bottom:0}
+
+#contenido{margin:10px 25%}
+
+h2{background:#C4D4E9;padding-left:10px}
+
+#Mark{border:2px solid black;margin-bottom:2em}
+
+#Bertrand{border:2px solid black;margin-bottom:2em}
+
+#Winston{border:2px solid black;margin-bottom:2em}
+
+#Fran{border:2px solid black;margin-bottom:2em}
+
+#Albert{border:2px solid black;margin-bottom:2em}
+
+div p{margin:15px;text-align:justify;}

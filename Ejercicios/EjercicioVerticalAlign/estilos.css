@@ -1,0 +1,25 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+html, body{box-sizing:inherit;width:100%;height:100%;}
+
+
+div{border:1px black solid;float:left;width:30%;margin:2.5% 0 0 2.5%;}
+
+#i1 {vertical-align:baseline;border:1px dashed red}
+#i2 {vertical-align:sub;border:1px dashed red}
+#i3 {vertical-align:super;border:1px dashed red}
+#i4 {vertical-align:top;border:1px dashed red}
+#i5 {vertical-align:text-top;border:1px dashed red}
+#i6 {vertical-align:middle;border:1px dashed red}
+#i7 {vertical-align:bottom;border:1px dashed red}
+#i8 {vertical-align:text-bottom;border:1px dashed red}
+#i9 {vertical-align:1em;border:1px dashed red}
+#i10 {vertical-align:-1em;border:1px dashed red}
+#i11 {vertical-align:20%;border:1px dashed red}
+#i12 {vertical-align:80%;border:1px dashed red}
+
+p {float:left;width:50%}
+
+span {display:block;float:right;margin-top:2.5em}
+
+
+

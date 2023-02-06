@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario</title>
+		<meta charset="UTF-8"/>
+		<link href="../imagenes/favicon.jpg" rel="shortcut icon"/>
+	</head>
+	<body>
+		<h1>Formulario de entrada</h1>
+		<form action="principal/index.html" method="post" enctype="multipart/form-data">
+			<table>
+				<tr>
+					<td><label for="nombre">Nombre:</label></td>
+					<td><input type="text" name="nombre" id="nombre"/></td>
+				</tr>
+				<tr>
+					<td><label>Sexo:</label></td>
+					<td><input type="radio" name="sexo" value="hombre" id="hombre" checked/> <label for="hombre">Hombre</label><input type="radio" name="sexo" value="mujer" id="mujer"/> <label for="mujer">Mujer</label></td>
+				</tr>
+				<tr>
+					<td><label>Vehículos:</label></td>
+					<td><input type="radio" name="vehiculos" value="bici" id="bici"/> <label for="bici">Bici</label><input type="radio" name="vehiculos" value="coche" id="coche"/> <label for="coche">Coche</label></td>
+				</tr>
+				<tr>
+					<td><label for="fichero">Fichero:</label></td>
+					<td><input type="file" name="fichero" id="fichero"/></td>
+				</tr>
+				<tr>
+					<td><label for="hidden">Hidden:</label></td>
+					<td><input type="hidden" name="hidden" value="si" id="hidden"/></td>
+				</tr>
+				<tr>
+					<td><label for="password">Password:</label></td>
+					<td><input type="password" name="password" id="password"/></td>
+				</tr>
+				<tr>
+					<td><label for="comida">Comida:</label></td>
+					<td><select name="comida" id="comida">
+						<option>Carne</option>
+						<option>Verdura</option>
+						<option>Pescado</option>
+						
+					</select></td>
+					</tr>
+					<tr>
+					<td><label for="bebida">Bebida:</label></td>
+					<td><select name="bebidad" id="bebida" size="3">
+						<option>Agua</option>
+						<option>Vino</option>
+						<option>Cerveza</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td><label for="comentario">Comentarios:</label></td>
+					<td><textarea name="comentario" id="comentario" cols="30" rows="5"></textarea></td>
+				</tr>
+			</table>
+			<input type="submit" name="btnEnviar" value="Pág.Inicio"/>
+		</form>
+	</body>
+</html>

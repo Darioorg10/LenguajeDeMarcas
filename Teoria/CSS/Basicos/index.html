@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>CSS Apuntes 1</title>
+		<link href="CSS/estilos.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<p>
+			<p>Cuando el navegador carga la página <a href="*"><acronym title="Hyper Text Markup Language">HTML</acronym></a> anterior, antes de mostrar sus contenidos también descarga los archivos CSS externos enlazados mediante la etiqueta y aplica los estilos a los contenidos de la página.
+			</p>
+			<p>
+Normalmente, la etiqueta incluye cuatro atributos cuando enlaza un archivo CSS:
+			</p>
+			<ul>
+<li>rel: indica el tipo de relación que existe entre el recurso enlazado (en este caso, el archivo CSS) y la página <acronym title="Hyper Text Markup Language">HTML</acronym>. Para los archivos <acronym>CSS</acronym>, siempre se utiliza el valor stylesheet</li>
+<li>type: indica el tipo de recurso enlazado. Sus valores están estandarizados y para los archivos CSS su valor siempre es text/css
+href: indica la URL del archivo CSS que contiene los estilos. La URL indicada puede ser relativa o absoluta y puede apuntar a un recurso interno o externo al sitio web.</li>
+<li>media: indica el medio en el que se van a aplicar los estilos del archivo CSS. Más adelante se explican en detalle los medios CSS y su funcionamiento.</li>
+
+		</ul>
+		<p>
+De todas las formas de incluir CSS en las páginas <acronym title="Hyper Text Markup Language">HTML</acronym>, esta es la más utilizada con mucha diferencia. La principal ventaja es que se puede incluir un mismo archivo CSS en multitud de páginas <acronym title="Hyper Text Markup Language">HTML</acronym>, por lo que se garantiza la aplicación homogénea de los mismos estilos a todas las páginas que forman un sitio web.
+		</p>
+		<p class="mas_grande">
+Con este método, el mantenimiento del sitio web se simplifica al máximo, ya que un solo cambio en un solo archivo CSS permite variar de forma instantánea los estilos de todas las páginas HTML que enlazan ese archivo.
+		</p>
+		<p>
+Aunque generalmente se emplea la etiqueta <link> para enlazar los archivos CSS externos, también se puede utilizar la etiqueta. La forma alternativa de incluir un archivo CSS externo se muestra a continuación:
+		</p>
+	</body>
+</html>

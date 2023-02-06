@@ -1,0 +1,28 @@
+/* Colores #DBC9A6 / #9B8F76, #91FF91 / #64B064, #FFFFB3 / #E8EBAS, #C6FFFF / #98C4C4, #FFE5FF / #BAA7BA, #FFB4B4 / #865F5F */
+
+html{box-sizing:border-box} /* Estas dos primeras (html y *) aprender de memoria y ponerlas siempre*/
+*{margin:0;padding:0;box-sizing:inherit}
+body{background-color:lightgrey; font-family:sans-serif}
+body {background:lightgrey}
+
+.txt_centrado{text-align:center}
+.txt_izquierda{text-align:left}
+.txt_derecha{text-align:right}
+
+p:hover {z-index:2}
+
+p{position:absolute;width:35%;height:36%;font-size:1.5em;padding:0.4em}
+
+h1{padding:0.5em}
+
+#m1{position:absolute;background:#DBC9A6 ;border:solid 2px #9B8F76;top:8%;left:10%;height:8%;width:80%}
+
+#m2{position:absolute;background:#91FF91 ;border:solid 2px #64B064;width:35%;height:36%;top:40%;left:32.5%;z-index:1;}
+
+#m3{position:absolute;background:#FFFFB3 ;border:solid 2px #EBEBA5;top:18%;left:5%;width:35%;height:36%;}
+
+#m4{position:absolute;background:#C6FFFF ;border:solid 2px #98C4C4;right:5%;top:18%;text-align:right;width:35%;height:36%;}
+
+#m5{position:absolute;background:#FFE5FF ;border:solid 2px #BAA7BA;top:62%;left:5%;bottom:2%;width:35%;height:36%;}
+
+#m6{position:absolute;background:#FFB4B4 ;border:solid 2px #865F5F;top:62%;right:5%;bottom:2%;text-align:right;width:35%;height:36%;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario</title>
+		<meta charset="UTF-8"/>
+		<link href="images/formulario.jpg" rel="shortcut icon"/>
+	</head>
+	<body>
+		<h1>Formulario</h1>
+		<form action="index.html" method="get" enctype="multipart/font-data">
+		<input type="hidden" name="var_oculta" value="dato_oculto"/>
+		<fieldset>
+			<legend>Datos personales</legend>
+		<p>
+			<label for="name">Nombre: </label><input type="text" name="nombre" id="name" placeholder="Introduce nombre" maxlength="30" size="40" required/>
+		</p>
+		<p>
+			<label for="clave">Contraseña: </label><input type="password" name="clave" placeholder="Introduce contraseña" id="clave"/>
+		</p>
+		<p>
+			<label>Sexo: </label><br/>
+			<input type="radio" name="sexo" value="hombre" id="hombre"/><label for="hombre"> Hombre</label><br/>
+			<input type="radio" name="sexo" value="mujer" id="mujer" checked/><label for="mujer"> Mujer</label>
+		</p>
+		</fieldset>
+		<fieldset>
+			<legend>Otros datos</legend>
+		<p>
+			<label>Puestos de trabajo buscados: </label><br/>
+			<input type="checkbox" name="dirección" id="direccion"/><label for="direccion"> Dirección</label><br/>
+			<input type="checkbox" name="técnico" id="tecnico"/><label for="tecnico"> Técnico</label><br/>
+			<input type="checkbox" name="empleado" id="empleado"/><label for="empleado"> Empleado</label>
+		</p>
+		<p>
+			<label for="foto">Seleccione una imagen inferior a 500KB: </label><input type="file" name="foto" id="foto" accept="image/*"/>
+		</p>
+		<p>
+			<label for="descripcion">Descripción del producto: </label><br/>
+			<textarea id="descipcion" name="descripcion" placeholder="Escribe una descripción" cols="40" rows="7"></textarea>
+		</p>
+		<p>
+			<label for="nacido">Nacido en: </label><br/>
+			<select name="nacido" id="nacido">
+				<optgroup label="Málaga">
+					<option value="1">Estepona</option>
+					<option value="2">Málaga</option>
+					<option value="3">Marbella</option>
+				</optgroup>
+				<optgroup label="Granada">
+					<option value="4">Granada</option>
+					<option value="5" selected>Motril</option>
+					<option value="6">Lojas</option>
+				</optgroup>
+			</select>
+		</p>
+		</fieldset>
+		<p>
+			<input type="submit" name="btnEnviar" value="Enviar"/>
+		</p>
+		
+		</form>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+/* colores usados: hsl(54, 100%, 75%);hsl(43, 100%, 60%);hsl(28, 100%, 50%);hsl(49, 100%, 60%);
+Tipo de letra : sans-serif;
+*/
+
+html{box-sizing:border-box;height:100%;width:100%;height:100%}
+*{margin:0;padding:0;box-sizing:inherit}
+
+body {background:hsl(54, 100%, 75%);font-family:sans-serif}
+
+#blanco{background:white;padding:0.5em;height:93%}
+
+.letraPeq{font-size:0.75em;margin-top:0.75em}
+
+#edadMedia{background:hsl(43, 100%, 60%);margin-bottom:1em;width:60%;overflow:hidden}
+
+#edadModerna{background:hsl(43, 100%, 60%);margin-bottom:1em;width:60%;overflow:hidden}
+
+#edadContemporanea{background:hsl(43, 100%, 60%);margin-top:1em;width:60%;overflow:hidden}
+
+h3{color:white}
+
+.amarillo{background:hsl(49, 100%, 60%);padding:0.5em;float:left}
+
+#id557{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1287{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1542{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1782{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1812{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1819{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1900{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1911{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+
+#id1947{background:hsl(28, 100%, 50%);padding:0.5em;float:left}
+

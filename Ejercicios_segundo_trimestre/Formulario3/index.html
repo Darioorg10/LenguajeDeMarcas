@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulario datos personales. Ejercicios.</title>
+		<link href="css/estilos.css" rel="stylesheet"/>
+		<link href="imagenes/favicon.png" rel="shortcut icon"/>
+	</head>
+	<body>
+		<h1>Ejemplo de formulario</h1>
+		<form action="index.html" method="post">
+			<fieldset>
+				<legend>Datos personales</legend>
+				<div class="ext">
+					<div> <!-- Ponemos un div por fila-->
+						<div class="izq">
+							<label for="apellidos"><span class="rojo sub">A</span>pellidos:</label>
+							<input type="text" name="apellidos" id="apellidos"/>
+						</div>
+						<div class="der">
+							<label for="nombre">N<span class="rojo sub">o</span>mbre:</label>
+							<input type="text" name="nombre" id="nombre"/>
+						</div>	
+					</div>
+					<div>
+						<div class="izq">
+							<label for="nac"><span class="rojo sub">N</span>acido en:</label>
+							<input type="text" name="nac" id="nac"/>
+						</div>
+						<div class="der">
+							<label for="prov1">Provincia:</label>
+							<select name="prov1" id="prov1">
+								<option value="valencia1">Valencia</option>
+								<option value="malaga1">Málaga</option>
+							</select>
+						</div>
+					</div>
+					<div>
+						<div id="esp">
+							<label for="domi">Do<span class="rojo sub">m</span>icilio:</label>
+							<select name="domi" id="domi">
+								<option value="vacia"></option>
+								<option value="calle">Calle Pepe</option>
+								<option value="plaza">Plaza Placita</option>
+							</select>
+							<input type="text" name="domi2" id="domi2"/>
+						</div>
+					</div>
+					<div>
+						<div class="izq">
+							<label for="loc"><span class="rojo sub">L</span>ocalidad:</label>
+							<input type="text" name="loc" id="loc"/>
+						</div>
+						<div class="der">
+							<label for="prov2">Provincia:</label>
+							<select name="prov2" id="prov2">
+								<option value="valencia2">Valencia</option>
+								<option value="malaga2">Málaga</option>
+							</select>
+						</div>
+					</div>
+				</div>		
+				<div class="ext">
+					<div>
+						<div>
+							<label for="dni"><span class="rojo sub">D</span>NI:</label>
+							<input type="text" name="dni" id="dni"/>
+						</div>
+					</div>
+					<div>
+						<div>
+							<label for="fech"><span class="rojo sub">F</span>echa nacimiento (dd/mm/aaaa):</label>
+							<input type="text" name="fech" id="fech"/>
+						</div>
+					</div>
+					<div>
+						<div>
+							<label for="cod"><span class="rojo sub">C</span>ódigo Postal:</label>
+							<input type="text" name="cod" id="cod"/>
+						</div>
+					</div>
+					<div>
+						<div>
+							<label for="tel"><span class="rojo sub">T</span>eléfono:</label>
+							<input type="text" name="tel" id="tel"/>
+						</div>
+					</div>
+				</div>
+				<p>
+					<input type="reset" value="Borrar todo"/>
+					<input type="submit" name="btnEnviar" value="Enviar"/>
+				</p>
+			</fieldset>
+		</form>	
+	</body>
+</html>

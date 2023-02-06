@@ -1,0 +1,13 @@
+* {margin:0;padding:0;box-sizing:border-box}
+
+html, body{height:100%;overflow:hidden;}
+
+body > div{width:50%;height:100%;border:solid grey 1px;overflow:hidden;float:left;}
+
+div > div{width:30%;height:30%;border:solid black 1px;float:left;margin:1.65%}
+
+p{font-size:300%;text-align:center;margin-top:30%}
+
+#central1{display:none}
+
+#central2{visibility:hidden}

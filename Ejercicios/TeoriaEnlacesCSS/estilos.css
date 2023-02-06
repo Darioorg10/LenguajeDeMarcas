@@ -1,0 +1,11 @@
+a{float:left;margin:1em;clear:left}
+
+#enl2{color:red;text-decoration:none;border-bottom:1px solid green}
+#enl3{color:#000;text-decoration:none;font-size:0.8em;background:#CCC;padding:0.25em 0.4em;border: 1px solid black;border-radius:100px;height:100px;width:100px;text-align:center;line-height:95px;}
+#enl3:hover{background:#BBB}
+
+a:link{color:green} /* Enlaces sin visitar */
+a:visited{color:brown}	/* Enlaces visitados */
+
+a:hover{color:orange;font-size:1.5em;} /* Cuando estás por encima */
+a:active{background-color:#CCC}	/* Cuando das click */

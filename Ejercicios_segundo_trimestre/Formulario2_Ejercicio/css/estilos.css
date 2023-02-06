@@ -1,0 +1,30 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+h1{
+	color:lightgrey;
+	text-align:center;
+	letter-spacing:0.5em;
+	margin-top:1em;
+}
+
+fieldset{
+	margin-bottom:0.5em;
+	border: 2px dashed lightgrey;
+}
+
+fieldset legend{
+	background-color:lightgrey;
+	color:white;
+	font-weight:bold;
+}
+
+#gris{
+	background-color:#E7E7E7;
+}
+

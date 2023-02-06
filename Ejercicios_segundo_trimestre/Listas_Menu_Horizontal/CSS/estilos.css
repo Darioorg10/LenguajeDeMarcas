@@ -1,0 +1,19 @@
+html{box-sizing:border-box}
+*{margin:0;padding:0;box-sizing:inherit}
+
+
+h1,h3{margin:1em}
+
+ol{margin:1.5em;}
+
+ol{border:1px solid #7c7c7c;width:50%;border-bottom:none;border-left:none;margin: 0 auto;list-style:none;overflow:hidden}
+
+ol li{border-bottom:1px solid #7c7c7c;background-color:#f4f4f4}
+
+li a{text-decoration:none;color:#333;display:block;text-align:center}
+
+li:hover{background:url(../Images/flecha_activa.png) no-repeat;background-color:#C4C4C4;color:black;}
+
+ol li{background:url(../Images/flecha_inactiva.png) no-repeat;border:1px solid #7c7c7c;width:16.6666666666666666666666666666666%;float:left;}
+
+

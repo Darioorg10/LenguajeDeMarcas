@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+#contenedor{
+	width:700px;
+	margin:0 auto;
+}
+
+#cabecera{
+	width:100%;
+	height:150px;
+	border:1px solid blue;
+}
+
+#centro{
+	width:100%;
+	overflow:hidden;
+}
+
+#lateral{
+	width:150px;
+	height:150px;
+	border:1px solid purple;
+	float:left
+}
+
+#contenido{
+	width:550px;
+	height:600px;
+	border:1px solid green;
+	float:left
+}
+
+#pie{
+	width:100%;
+	height:50px;
+	border:1px solid orange;
+}
+
+
+

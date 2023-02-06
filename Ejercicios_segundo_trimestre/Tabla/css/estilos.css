@@ -1,0 +1,16 @@
+table, td, th{
+	border:1px solid black;
+}
+
+ table{
+	border-collapse:collapse; /* Para que solo haya un borde y no sea doble */
+	caption-side:bottom; /* Para mover el caption de sitio */
+	}
+	
+	
+	/* table{
+		border-spacing:0; /* Hace lo mismo prácticamente, pero te los pone uno encima de otro así que se ve negro y un poco más gordo 
+		empty-cells:hide;
+		} */
+
+

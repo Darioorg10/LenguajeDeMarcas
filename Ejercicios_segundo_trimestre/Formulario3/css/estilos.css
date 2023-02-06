@@ -1,0 +1,126 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:inherit;
+}
+
+html {
+  box-sizing:border-box;
+}
+
+body, form,fieldset{
+	padding:0.5em;
+}
+
+h1{
+	text-transform:uppercase;
+	text-align:center;
+	background-color:#ECECEC;
+}
+
+fieldset{
+	background-color:#ECECEC;
+}
+
+legend{
+	padding:0.2em;
+	background-color:white;
+	border:1px solid #ECECEC;
+}
+
+.rojo{
+	color:red;
+}
+
+.sub{
+	text-decoration:underline;
+}
+
+.ext{
+	width:49%;
+	float:left;
+	margin:0 0.5%;
+}
+
+.ext > div{
+	overflow:hidden;
+}
+
+.ext div div{
+	float:left;
+}
+
+.izq{
+	width:60%;
+}
+
+.der{
+ width:40%;
+}
+
+#esp{
+	width:100%;
+}
+
+#esp select, #esp input{ /* Funciona sin esto, pero si no funciona, poner esto */
+	float:left;
+}
+
+label{
+	display:block;
+	margin-top:0.25em;
+}
+
+p{
+	text-align:right;
+}
+
+#domi1{
+	width:15%;
+}
+
+#domi2{
+	width:85%;
+}
+
+#apellidos{
+	width:90%;
+}
+
+#nombre{
+	width:95%;
+}
+
+#nac{
+	width:80%;
+}
+
+#loc{
+	width:80%;
+}
+
+#dni{
+	width:50%;
+}
+
+#fec{
+	width:50%;
+}
+
+#cod{
+	width:40%;
+}
+
+#tel{
+	width:45%;
+}
+
+p input{
+	padding:0 0.4em;
+	border:0.5px solid #15A3D4;
+}
+
+p input:hover{
+	background-color:#CCC;
+}
+

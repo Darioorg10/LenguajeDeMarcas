@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+	padding:0.5em;
+	height:100%; 
+}
+
+#contenedor{
+	width:500px;
+	height:600px;
+	border:1px solid black;
+	position:absolute; /* Busca al padre */
+	top:50%;
+	left:50%;
+	margin-top:-300px; /* Mitad del height */
+	margin-left:-250px; /* Mitad del width */
+}
+
+
+
+
+
+
+
+
+
+
+/* Este sería para posicionar horizontalmente	
+	
+	#contenedor{
+		width:70%;
+		border:1px solid black;
+		height:50%; Se posicionan respecto a su padre 
+		max-width:900px;
+		margin:0 auto;
+		min-width:500px;
+	}	
+
+*/

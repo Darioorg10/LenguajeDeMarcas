@@ -1,0 +1,13 @@
+html{box-sizing:border-box}
+
+a{background-repeat:no-repeat;padding-left:1em}
+
+#i1{background-image:url("images/euro.png");color:orange} /* En el background image solo se puede poner la url, si quisieramos poner el no repeat aquí podríamos poner background:url("images/euro.png") no-repeat */
+#i2{background-image:url("images/dolar.png");color:lightgreen}
+#i3{background-image:url("images/libra.png");color:aqua}
+#i4{background-image:url("images/yen.png");color:green}
+
+#i1:hover{background-image:url("images/dolar.png");color:lightgreen}
+#i2:hover{background-image:url("images/yen.png");color:green}
+#i3:hover{background-image:url("images/dolar.png");color:lightgreen}
+#i4:hover{background-image:url("images/euro.png");color:orange}
