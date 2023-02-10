@@ -1,0 +1,268 @@
+/* Al flotarse un elemento se vuelve de bloque */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body{
+	background-color:#FBF9E4;
+}
+
+#cabecera{
+	height:116px; /* La altura del logo */
+	background-image:url("../imagenes/fondo.jpg");
+	text-align:center;
+	overflow:hidden;
+}
+
+#logo{
+	float:left;
+	margin-left:1.25em;
+}
+
+#menu{
+	height:50px;
+	background-color:#1A6900;
+	overflow:hidden;
+}
+
+#menu ul{
+	float:left;
+	overflow:hidden;
+	list-style:none;
+}
+
+#menu ul li{
+	float:left;
+	border-right:1px solid black;
+}
+
+#menu ul li a{
+	display:block;
+	text-decoration:none;
+	color:white;
+	padding:0 0.5em; /* Arriba y abajo nada, el 0.5 es para derecha e izquierda */
+	line-height:50px;
+}
+
+#menu span{
+	float:right;
+	color:white;
+	line-height:50px;
+	margin-right:1em;
+}
+
+#menu span a{
+	text-decoration:none;
+	color:white;	
+}
+
+#enlace1{
+	font-size:1.25em;
+	margin-left:1.75em;
+	font-weight:bold;
+}
+
+#contenido{
+	padding-top:2em;
+	overflow:hidden;
+}
+
+#izq{
+	width:25%;
+	float:left;
+	margin-right:2em;
+	padding:0 0.75em;
+}
+
+#der{
+	overflow:hidden;
+}
+
+#pie{
+	height:50px;
+	background-color:#1A6900;
+	margin:0 0.75em;
+}
+
+#puntos{
+	height:16px;
+	background-image:url("../imagenes/tres_puntos.jpg");
+}
+
+#der h2{
+	margin:0.75em 0 1.75em 0; 
+}
+
+.blanco_izq{
+	background-color:white;
+	padding:0.5em;
+	border-radius:5px;
+	border:1px solid #CCC;
+	margin-bottom:1em;
+}
+
+.blanco_izq h3{
+	display:inline; /* Para que se ponga el texto al lado de la imagen */
+}
+
+.blanco_izq img{
+	vertical-align:-8px; /* Se pueden poner píxeles en un vertical align */
+}
+
+#izq form{
+	border-top:1px solid #CCC;
+	padding:0.5em 1.25em;
+}
+
+#izq input{
+	width:100%;
+	border-radius:5px;
+	padding:0.5em;
+	margin:0.5em 0;
+}
+
+#izq #recordar{
+	width:10%;
+}
+
+#izq form p{
+	overflow:hidden;
+}
+
+#izq #entrar{
+	width:20%;
+	float:left;
+	font-size:0.8em;
+	margin-right:1%;
+	background-color:#33A92E;
+	border:none;
+	color:white;
+}
+
+#izq #olvidaste{	
+	width:79%;
+	float:left;
+	font-size:0.8em;
+	background-color:#1A6900;
+	border:none;
+	color:white;
+}
+
+.blanco{
+	height:60px;
+	border-radius:5px;
+	width:45%;
+	margin:1em 0;
+	border:1px solid #CCC;
+}
+
+.blanco a{
+	padding-left:55px;
+	line-height:60px;
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+
+.blanco a:hover{
+	color:white
+}
+
+#adm{
+	background: white url("../imagenes/adminis.jpg") no-repeat 0 center /* Respecto a derecha e izquieda que se ponga en el 0 y de arriba a abajo en el centro */
+}
+
+#adm:hover{
+	background: #1A6900 url("../imagenes/adminis_neg.jpg") no-repeat 0 center;
+}
+
+#bio{
+	background: white url("../imagenes/biologia.jpg") no-repeat 0 center;
+}
+
+#bio:hover{
+	background: #1A6900 url("../imagenes/biologia_neg.jpg") no-repeat 0 center;
+}
+
+#cla{
+	background: white url("../imagenes/clasicas.jpg") no-repeat 0 center;
+}
+
+#cla:hover{
+	background: #1A6900 url("../imagenes/clasicas_neg.jpg") no-repeat 0 center;
+}
+
+#eco{
+	background: white url("../imagenes/economia.jpg") no-repeat 0 center;
+}
+
+#eco:hover{
+	background: #1A6900 url("../imagenes/economia_neg.jpg") no-repeat 0 center;
+}
+
+#tec{
+	background: white url("../imagenes/tecnologia.jpg") no-repeat 0 center;
+}
+
+#tec:hover{
+	background: #1A6900 url("../imagenes/tecnologia_neg.jpg") no-repeat 0 center;
+}
+
+#rel{
+	background: white url("../imagenes/religion.jpg") no-repeat 0 center;
+}
+
+#rel:hover{
+	background: #1A6900 url("../imagenes/religion_neg.jpg") no-repeat 0 center;
+}
+
+#moo{
+	background: white url("../imagenes/moodle.jpg") no-repeat 0 center;
+}
+
+#moo:hover{
+	background: #1A6900 url("../imagenes/moodle_neg.jpg") no-repeat 0 center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
