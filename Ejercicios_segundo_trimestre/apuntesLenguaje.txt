@@ -1,5 +1,5 @@
-Para que funcione el hover al ponerse encima de un enlace en un menú, al .menu li solo ponerle el float:left y el display:block
-y el resto al .menu li a, y lo que sea del hover en el .menu li a:hover
+Para que funcione el hover al ponerse encima de un enlace en un menú, al .menu li solo ponerle el float:left.
+Y el display:block y el resto al .menu li a, y lo que sea del hover en el .menu li a:hover
 
 *{
 margin:0;
