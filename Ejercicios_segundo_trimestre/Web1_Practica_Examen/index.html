@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilos.css" rel="stylesheet">
+    <title>Moodle</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cabecera">
+            <img src="imagenes/logo.jpg" id="imgLogo">            
+            <img src="imagenes/nombre.jpg" id="imgNombre">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#" id="marAlboran">IES Mar de Alborán</a></li>
+                <li><a href="#" id="espanol">Español - Internacional (es)</a></li>
+                <span>Usted no se ha identificado. <a href="#">(Entrar)</a></span>
+            </ul>
+        </div>
+        <div class="centro">
+            <div class="izquierda">
+                <div class="entrar">
+                        <img src="imagenes/usuario.jpg">
+                        <h3>ENTRAR</h3>
+                    <form action="index.html" method="post">
+                    <label for="nombre">Nombre de usuario</label><br>
+                    <input type="text" name="nombre" id="nombre"><br>
+                    <label for="contrasena">Contraseña</label><br>
+                    <input type="password" name="contrasena" id="contrasena"><br>
+                    <p id="hola">
+                        <input type="checkbox" id="recordar" name="recordar">&nbsp;&nbsp;&nbsp;
+                        <label for="recordar">Recordar nombre de usuario</label><br>
+                    </p>                    
+                    <p id="botones">
+                        <input type="submit" name="btnEnviar" value="Entrar" id="entrar">
+                        <input type="submit" name="btnContrasena" value="¿Ha extraviado la contraseña?" id="olvidada">
+                    </p>
+                </form>
+                </div>
+                <div class="calendario">
+                    <img src="imagenes/calendario.jpg">
+                    <h3>CALENDARIO</h3>
+                </div>
+                <div class="navegacion">
+                    <img src="imagenes/navegacion.jpg">
+                    <h3>NAVEGACIÓN</h3>
+                </div>
+                
+                
+            </div>
+            <div class="derecha">
+                <div class="puntos">                    
+                </div>
+                <h4>Cursos</h4>
+
+                <div class="adm">
+                    <a href="#">Departamento de Administrativo</a>
+                </div>
+                <div class="bio">
+                    <a href="#">Departamento de Biología</a> 
+                </div>
+                <div class="cla">
+                    <a href="#">Departamento de Clásicas</a>
+                </div>
+                <div class="eco">
+                    <a href="#">Departamento de Economía</a>
+                </div>
+                <div class="tec">
+                    <a href="#">Departamento de Tecnología</a>
+                </div>
+                <div class="rel">
+                    <a href="#">Departamento de Religión</a>
+                </div>
+                <div class="moo">
+                    <a href="#">MOODLE 2.6</a>
+                </div>
+            </div>
+            <div class="pie">
+
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>

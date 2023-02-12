@@ -1,0 +1,357 @@
+/* Colores:
+    #FBF9E4
+    #1A6900
+    #33A92E
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    background: url(imagenes/fondo.jpg);
+    height: 116px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#imgNombre{
+   margin-right: 100px;
+}
+
+#imgLogo{
+    float: left;
+}
+
+.menu{
+    background-color: #1A6900;
+    overflow: hidden;
+    height: 50px;
+}
+
+.menu ul{
+    list-style: none;    
+}
+
+.menu li{
+    float:left;
+    padding: 1em;
+    border-right: 1px solid black;
+}
+
+#marAlboran{
+    font-weight: bold;
+}
+
+#espanol{
+    font-size: 15px;
+}
+
+.menu li a{
+    display: block;
+}
+
+.menu ul a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu span{
+    float: right;
+    color:white;
+    line-height: 3em;
+    margin-right: 1em;
+}
+
+.contenedor{
+
+}
+
+.centro{
+    background-color: #FBF9E4;
+    padding: 1em;
+    height: 772px;
+}
+
+.izquierda{
+    float:left;
+    width:20%;
+}
+
+.entrar{
+    background-color: white;
+    border-radius:5px;
+    border: 1px solid #CCC;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.entrar img{       
+    vertical-align: -10px;
+}
+
+.entrar h3{
+    display: inline;       
+}
+
+form{
+    border-top:1px solid #CCC;
+    padding: 0.75em;    
+}
+
+form input[type="text"]{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+form input[type="password"]{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#hola{
+    padding: 1em;
+}
+
+#entrar{
+    background-color: rgb(34, 180, 34);
+    color: white;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 20%;
+}
+
+#olvidada{
+    background-color: green;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 78%;
+}
+
+.calendario{
+    background-color: white;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.calendario img{
+    vertical-align: -10px;
+}
+
+.calendario h3{
+    display: inline;
+}
+
+.navegacion{
+    margin-top: 1em;
+    background-color: white;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.navegacion img{
+    vertical-align: -12px;
+}
+
+.navegacion h3{
+    display: inline;
+}
+
+.puntos{
+    height: 16px;
+    background-image: url(imagenes/tres_puntos.jpg);
+}
+
+.derecha{
+    float: left;
+    width: 65%;
+    margin-left: 50px;
+}
+
+.derecha h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.derecha a{
+    color:black;
+    text-decoration: none;
+}
+
+.adm{
+    background-color: white;
+    margin-top: 1em;
+    height: 50px;
+    width: 60%;
+    line-height: 3em;    
+    border: 1px solid #CCC;
+}
+
+.adm a{
+    background: url(imagenes/adminis.jpg) no-repeat 0 center;         
+    float: left;
+    width: 100%;
+    padding-left: 3.5em;     
+}
+
+.adm a:hover{
+    background: #1A6900 url(imagenes/adminis_neg.jpg) no-repeat 0 center;
+    color:white;
+}
+
+.bio{
+    background-color: white;
+    margin-top: 1em;
+    height: 50px;
+    width: 60%;
+    line-height: 3em;    
+    border: 1px solid #CCC;
+}
+
+.bio a{
+    background: url(imagenes/biologia.jpg) no-repeat 0 center;         
+    float: left;
+    width: 100%;
+    padding-left: 3.5em;        
+}
+
+.bio a:hover{
+    background: #1A6900 url(imagenes/biologia_neg.jpg) no-repeat 0 center;
+    color:white;
+}
+
+
+.cla{
+    background-color: white;
+    margin-top: 1em;
+    height: 50px;
+    width: 60%;
+    line-height: 3em;    
+    border: 1px solid #CCC;
+}
+
+.cla a{
+    background: url(imagenes/clasicas.jpg) no-repeat 0 center;         
+    float: left;
+    width: 100%;
+    padding-left: 3.5em;        
+}
+
+.cla a:hover{
+    background: #1A6900 url(imagenes/clasicas_neg.jpg) no-repeat 0 center;
+    color:white;
+}
+
+
+.eco{
+    background-color: white;
+    margin-top: 1em;
+    height: 50px;
+    width: 60%;
+    line-height: 3em;    
+    border: 1px solid #CCC;
+}
+
+.eco a{
+    background: url(imagenes/economia.jpg) no-repeat 0 center;         
+    float: left;
+    width: 100%;
+    padding-left: 3.5em;        
+}
+
+.eco a:hover{
+    background: #1A6900 url(imagenes/economia_neg.jpg) no-repeat 0 center;
+    color:white;
+}
+
+
+.tec{
+    background-color: white;
+    margin-top: 1em;
+    height: 50px;
+    width: 60%;
+    line-height: 3em;    
+    border: 1px solid #CCC;
+}
+
+.tec a{
+    background: url(imagenes/tecnologia.jpg) no-repeat 0 center;         
+    float: left;
+    width: 100%;
+    padding-left: 3.5em;        
+}
+
+.tec a:hover{
+    background: #1A6900 url(imagenes/tecnologia_neg.jpg) no-repeat 0 center;
+    color:white;
+}
+
+
+.rel{
+    background-color: white;
+    margin-top: 1em;
+    height: 50px;
+    width: 60%;
+    line-height: 3em;    
+    border: 1px solid #CCC;
+}
+
+.rel a{
+    background: url(imagenes/religion.jpg) no-repeat 0 center;         
+    float: left;
+    width: 100%;
+    padding-left: 3.5em;        
+}
+
+.rel a:hover{
+    background: #1A6900 url(imagenes/religion_neg.jpg) no-repeat 0 center;
+    color:white;
+}
+
+
+.moo{
+    background-color: white;
+    margin-top: 1em;
+    height: 50px;
+    width: 60%;
+    line-height: 3em;    
+    border: 1px solid #CCC;
+}
+
+.moo a{
+    background: url(imagenes/moodle.jpg) no-repeat 0 center;         
+    float: left;
+    width: 100%;
+    padding-left: 3.5em;        
+}
+
+.moo a:hover{
+    background: #1A6900 url(imagenes/moodle_neg.jpg) no-repeat 0 center;
+    color:white;
+}
+
+.pie{    
+    width: 100%;
+    height: 50px;
+    background-color: #1A6900;
+    float: left;
+    margin-top: 1em;
+}
+
+
+
+
+
+
