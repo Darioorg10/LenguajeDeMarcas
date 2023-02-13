@@ -1,0 +1,406 @@
+*{
+margin:0;
+padding:0;
+box-sizing:inherit
+}
+
+html{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+
+/* Al li el float:left, al li a: el display:block y al li a:hover lo demás si la imagen no va bien, poner solo background y después para la posición 0 center o el que sea en este caso*/
+
+.contenedor{
+	width:90%;
+	margin:0 auto;
+}
+
+.cabecera{
+	background-color:#1A2E35;
+}
+
+.menu{
+	height:60px;
+	background-color:#1A2E35;
+	overflow:hidden;
+}
+
+ul{
+	list-style:none;
+}
+
+ul li{
+	float:left;
+	padding:1em;
+	width:10%;
+}
+
+ul li a{
+	display:block;
+	text-decoration:none;
+	color:#7B8E9C;
+	text-align:center;
+}
+
+ul li a:hover{
+	background-color:blue;
+}
+
+#puntos{
+	background:url("../images/menu/puntos.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#puntos:hover{
+	background: #111F25 url("../images/menu/puntos_b.png") no-repeat 55px 4px;
+}
+
+#lesionados{
+	background:url("../images/menu/lesionados.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#lesionados:hover{
+	background: #111F25 url("../images/menu/lesionados_b.png") no-repeat 55px 4px;
+}
+
+#dinero{
+	background:url("../images/menu/dinero.png") no-repeat 60px 4px;
+	padding-top:1.5em;
+}
+
+#dinero:hover{
+	background: #111F25 url("../images/menu/dinero_b.png") no-repeat 60px 4px;
+}
+
+#jugadores{
+	background:url("../images/menu/jugadores.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#jugadores:hover{
+	background: #111F25 url("../images/menu/jugadores_b.png") no-repeat 55px 4px;
+}
+
+#onceIdeal{
+	background:url("../images/menu/puntos.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#onceIdeal:hover{
+	background: #111F25 url("../images/menu/puntos_b.png") no-repeat 55px 4px;
+}
+
+#laLiga{
+	background:url("../images/menu/laliga.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#laLiga:hover{
+	background: #111F25 url("../images/menu/laliga_b.png") no-repeat 55px 4px;
+}
+
+#mercado{
+	background:url("../images/menu/mercado.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#mercado:hover{
+	background: #111F25 url("../images/menu/mercado_b.png") no-repeat 55px 4px;
+}
+
+#apuestas{
+	background:url("../images/menu/apuestas.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#apuestas:hover{
+	background: #111F25 url("../images/menu/apuestas_b.png") no-repeat 55px 4px;
+}
+
+#dudas{
+	background:url("../images/menu/dudas.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#dudas:hover{
+	background: #111F25 url("../images/menu/dudas_b.png") no-repeat 55px 4px;
+}
+
+#buscar{
+	background:url("../images/menu/buscar.png") no-repeat 55px 4px;
+	padding-top:1.5em;
+}
+
+#buscar:hover{
+	background: #111F25 url("../images/menu/buscar_b.png") no-repeat 55px 4px;
+}
+
+.centro{
+	background-color:#F5F4F9;
+	overflow:hidden;
+}
+
+.publicidad{
+	text-align:center;
+	padding:0.5em;
+}
+
+.izquierda{
+	width:45%;
+	padding:1em;
+	float:left;
+	margin-left:4em;
+}
+
+.izquierda1{
+	background-color:white;
+	padding:0.25em;
+	border-top-right-radius:5px;
+}
+
+#sub1{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#sub1:hover{
+	background-color:#DDD;
+}
+
+#eib{
+	margin-top:1em;
+	vertical-align:-20px;
+}
+
+#mc{
+	background-color:green;
+	color:white;
+	font-weight:bold;
+	border-radius:5px;
+	height:35px;
+	width:5%;
+	padding:0.30em;
+	line-height:2em;
+}
+
+/* 
+	background-color:green;
+	color:white;
+	width:6%;
+	padding:0.25em;
+	font-weight:bold;
+	line-height:1.5em;
+	display:inline;
+	border-radius:5px;
+*/
+
+#alena{
+	font-weight:bold;
+	display:inline;
+	font-size:12px;
+	
+}
+
+#precio{
+	color:#CCC;
+	display:inline;
+}
+
+#precioVerde{
+	color:green;
+	float:right;
+	line-height:2em;
+}
+
+.izquierda2{
+	background-color:white;
+	margin-top:1em;
+	padding:1em;
+	border-top-right-radius:5px;
+}
+
+.izquierda2 img{
+	width:95%;
+	
+}
+
+#sub2{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#sub2:hover{
+	background-color:#DDD;
+}
+
+#sub3{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#sub3:hover{
+	background-color:#DDD;
+}
+
+#sub4{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#sub4:hover{
+	background-color:#DDD;
+}
+
+#sub5{
+	margin-top:1em;
+}
+
+#sub5:hover{
+	background-color:#DDD;
+}
+
+.derecha{	
+	float:left;
+	width:45%;
+	padding:1em;
+}
+
+.derecha1{
+	background-color:white;
+	padding:0.25em;
+	border-top-right-radius:5px;
+}
+
+.derecha2{
+	background-color:white;
+	margin-top:1em;
+	padding:1em;
+	border-top-right-radius:5px;
+}
+
+.derecha2 img{
+	width:95%;
+}
+
+#precioRojo{
+	color:red;
+	float:right;
+	line-height:2em;
+}
+
+
+#baj1{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#baj1:hover{
+	background-color:#DDD;
+}
+
+#baj2{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#baj2:hover{
+	background-color:#DDD;
+}
+
+#baj3{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#baj3:hover{
+	background-color:#DDD;
+}
+
+#baj4{
+	border-bottom:1px solid #CCC;
+	margin-top:1em;
+}
+
+#baj4:hover{
+	background-color:#DDD;
+}
+
+#baj5{
+	margin-top:1em;
+}
+
+#baj5:hover{
+	background-color:#DDD;
+}
+
+#pie{
+	background-color:black;
+	color:#517985;
+	text-align:justify;
+	padding:1em;
+}
+
+#pie p{
+	margin-left:45%;
+}
+
+#pie img{
+	margin-left:40%;
+}
+
+#comuniazo{
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
