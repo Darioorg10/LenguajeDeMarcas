@@ -9,6 +9,9 @@
         <cif>Q-9876543</cif>
         <telefono>91.777.66.88</telefono>
         <fax>91.777.66.99</fax>
+        <fecha>12-01-2005</fecha>
+        <pedido n="731"/>
+        <forma_de_pago>EFECTIVO</forma_de_pago>
     </factura>
     <datosCliente>
         <numCliente>879</numCliente>
