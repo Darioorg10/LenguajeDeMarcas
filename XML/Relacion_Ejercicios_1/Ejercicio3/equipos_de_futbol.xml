@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+	<equipo>
+		<nombre>Real Madrid C.F</nombre>
+		<ciudad>Madrid</ciudad>
+		<entrenador></entrenador>
+			<jugador posicion="delantero">
+				<nombre>Vinicius JR</nombre>				
+				<nacionalidad>Brasileña</nacionalidad>
+			</jugador>
+			<jugador posicion="portero">
+				<nombre>Thibaut Courtois</nombre>
+				<nacionalidad>Belga</nacionalidad>
+			</jugador>
+	</equipo>
+	<equipo>
+		<nombre>Málaga F.C</nombre>
+		<ciudad>Málaga</ciudad>
+		<entrenador></entrenador>
+			<jugador posicion="defensa">
+				<nombre>Ramalho</nombre>
+				<nacionalidad>Angoleña</nacionalidad>
+			</jugador>
+			<jugador posicion="delantero">
+				<nombre>Rubén Castro</nombre>
+				<nacionalidad>Española</nacionalidad>
+			</jugador>
+	</equipo>
+</equipos>

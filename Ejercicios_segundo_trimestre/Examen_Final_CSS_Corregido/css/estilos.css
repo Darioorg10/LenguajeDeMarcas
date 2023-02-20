@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+#contenedor{
+  width:90%;
+  margin: 0 auto;  
+  background-color: #F5F4F9;
+}
+
+#cabecera{
+  background-color: #1a2e35;
+}
+
+#menu ul{
+  list-style: none;  
+  background-color: #1a2e35;
+  overflow: hidden;
+}
+
+#menu ul li{
+  width: 10%;
+  float: left;
+}
+
+#menu ul li a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #7b8e9c;
+  padding: 0.25em;
+}
+
+#puntos{
+  background: #1a2e35 url("../images/menu/puntos.png") no-repeat center 0;
+}
+
+#puntos:hover{
+  background: #111f25 url("../images/menu/puntos_b.png") no-repeat center 0;
+}
+
+#lesionados{
+  background: #1a2e35 url("../images/menu/lesionados.png") no-repeat center 0;
+}
+
+#lesionados:hover{
+  background: #111f25 url("../images/menu/lesionados_b.png") no-repeat center 0;
+}
+
+#dinero{
+  background: #1a2e35 url("../images/menu/dinero.png") no-repeat center 0;
+}
+
+#dinero:hover{
+  background: #111f25 url("../images/menu/dinero_b.png") no-repeat center 0;
+}
+
+#jugadores{
+  background: #1a2e35 url("../images/menu/jugadores.png") no-repeat center 0;
+}
+
+#jugadores:hover{
+  background: #111f25 url("../images/menu/jugadores_b.png") no-repeat center 0;
+}
+
+#centro p{
+  text-align: center;
+  margin-top: 2%;
+}
+
+#centro p img{
+  width: 30%;
+}
+
+#hoy{
+  overflow: hidden;
+  width: 95%;
+  margin: 1% auto;
+}
+
+#hoy > div{
+  width: 48%;
+  background-color: white;
+  border-radius: 5px;
+  float: left;
+  margin: 1%;
+  padding: 0.25em;
+}
+
+.jugador{
+  height:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

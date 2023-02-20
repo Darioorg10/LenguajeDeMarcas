@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Le falta el encoding -->
+<documento>
+	<p>Mi Primer <destacar importancia="1">documento <!-- Le faltaban las comillas al 1-->
+XML</destacar></p> <!-- Hay que cerrar con menor que-->
+	<p>Comienza con la etiqueta &lt;documento&gt;</p> <!-- No se puede poner el símbolo <, hay que poner &lt; -->
+	<p>A continuacion colocamos un elemento sin
+contenido</p>
+	<imagen fichero="imagen.gif"/> <!-- Hay que cerrarlo --> 
+</documento>

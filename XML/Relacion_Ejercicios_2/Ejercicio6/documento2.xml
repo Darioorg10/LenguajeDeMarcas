@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Falta el encoding -->
+<libros>
+	<libro id="quijote">
+	<titulo>El Quijote</titulo>
+	<autor nombre="cervantes"/> <!-- Faltan las comillas y está puesto dos veces, y cerrar -->
+	<descripcion>Es el mejor libro de
+	cervantes.</descripcion> <!-- Hay un menor hay, si se quisiera poner habría que poner &lt; -->
+	</libro> <!-- Hay que cerrar con > -->
+</libros> <!-- Hay que cerrar en minúsculas también -->
