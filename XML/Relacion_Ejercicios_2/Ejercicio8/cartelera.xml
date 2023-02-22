@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+    <peliculas>
+        <pelicula>
+            <titulo>AQUELLAS JUERGAS UNIVERSITARIA</titulo>
+            <tituloOriginal>Old School</tituloOriginal>
+            <pais>EEUU</pais>
+            <anio>2003</anio>
+            <duracion>93min</duracion>
+            <director>Todd Philiips</director>
+                <interpretes>
+                    <interprete>Will Ferrell</interprete>
+                    <interprete>Luke Wilson</interprete>
+                    <interprete>Vince Vaughn</interprete>
+                    <interprete>Jeremy Piven</interprete>
+                    <interprete>Juliette Lewis</interprete>
+                    <interprete>Sean William Scott</interprete>
+                </interpretes>
+            <sinopsis>
+                Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que
+                esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero
+                que agarra. Frank se ha casado y su matrimonio nada tiene que ver con
+                las juergas salvajes que organizaban años atrás. Y Beanie es un padre de familia que se
+                muere por recuperar su alocada juventud. Pero las cosas cambian cuando Beanie sugiere
+                que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la
+                universidad. Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver
+                a sus viejas, salvajes y desmadradas juergas de estudiantes.
+            </sinopsis>
+            <web>http://www.oldschool-themovie.com/</web>
+            <edadRecomendada>Comedia autorizada para mayores de 16 años</edadRecomendada>
+        </pelicula>
+        <pelicula>            
+            <titulo>Titanic</titulo>
+            <pais>EEUU</pais>
+            <anio>1997</anio>
+            <duracion>215min</duracion>
+            <director>James Horner</director>
+                <interpretes>
+                    <interprete>Leonardo DiCaprio</interprete>
+                    <interprete>Kate Winslet</interprete>
+                    <interprete>Billy Zane</interprete>
+                    <interprete>Kathy Bates</interprete>
+                </interpretes>
+            <sinopsis>
+                Jack es un joven artista que gana un pasaje para viajar a América en el Titanic, 
+                el transatlántico más grande y seguro jamás construido.
+            </sinopsis>
+            <edadRecomendada>12</edadRecomendada>
+        </pelicula>
+        <pelicula>
+            <titulo>Ocho apellidos Vascos</titulo>
+            <pais>España</pais>
+            <anio>2014</anio>
+            <duracion>98min</duracion>
+            <director>Emilio Martínez-Lázaaro</director>
+                <interpretes>
+                    <interprete>Clara Lago</interprete>
+                    <interprete>Dani Rovira</interprete>
+                    <interprete>Carmen Machi</interprete>
+                    <interprete>Karra Elejalde</interprete>                    
+                </interpretes>
+            <sinopsis>
+                Rafa, un señorito andaluz que nunca ha salido de Sevilla, 
+                decide dejarlo todo para conquistar a Amaia, una chica vasca. 
+                Se muda al País Vasco y allí tendrá que adaptarse a un nuevo entorno 
+                y hacerse pasar por vasco para ganarse la aprobación del padre de Amaia.
+            </sinopsis>
+            <web>http://www.ochoapellidosvascos.com/</web>
+        </pelicula>
+        <pelicula>
+            <titulo>Diamantes en Bruto</titulo>
+            <tituloOriginal>Uncut Gems</tituloOriginal>
+            <pais>EEUU</pais>
+            <anio>2019</anio>
+            <duracion>90min</duracion>
+            <director>Philips Jameson</director>
+                <interpretes>
+                    <interprete>Adam Sandler</interprete>
+                    <interprete>Kate Lilith</interprete>
+                    <interprete>Peter Johnson</interprete>
+                    <interprete>Keith William Richards</interprete>                    
+                </interpretes>
+            <sinopsis>
+                Un carismático joyero hace una apuesta de alto riesgo que podría conducir 
+                a una ganancia inesperada, pero antes debe lograr un equilibrio entre las 
+                empresas, la familia y los adversarios.
+            </sinopsis>
+            <web>http://www.uncutgems.com/</web>
+            <edadRecomendada>18</edadRecomendada>
+        </pelicula>
+        <pelicula>
+            <titulo>AVATAR: THE WAY OF WATER</titulo>
+            <tituloOriginal>Avatar: El sentido del Agua</tituloOriginal>
+            <pais>EEUU</pais>
+            <anio>2022</anio>
+            <duracion>180min</duracion>
+            <director>James Cameron</director>
+                <interpretes>
+                    <interprete>Sam Worthington</interprete>
+                    <interprete>Zoe Saldaña</interprete>
+                    <interprete>Sigourney Weaver</interprete>
+                    <interprete>Kate Winslet</interprete>                    
+                </interpretes>
+            <sinopsis>
+                Jake Sully y Ney'tiri han formado una familia y hacen todo lo posible 
+                por permanecer juntos. Sin embargo, deben abandonar su hogar y explorar
+                las regiones de Pandora cuando una antigua amenaza reaparece.
+            </sinopsis>
+            <web>http://www.avatar.com/</web>
+            <edadRecomendada>12</edadRecomendada>
+        </pelicula>
+    </peliculas>
+</cartelera>
