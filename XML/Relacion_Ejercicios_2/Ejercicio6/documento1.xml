@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- Le falta el encoding -->
+<?xml version="1.0" encoding="UTF-8"?> <!-- (No es necesario el encoding) -->
 <documento>
 	<p>Mi Primer <destacar importancia="1">documento <!-- Le faltaban las comillas al 1-->
 XML</destacar></p> <!-- Hay que cerrar con menor que-->

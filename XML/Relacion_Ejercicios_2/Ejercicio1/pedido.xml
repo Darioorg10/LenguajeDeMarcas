@@ -2,7 +2,7 @@
 <pedidos>
 	<pedido>
 		<destinatario>Juan Delgado Martínez</destinatario>
-		<articulo>Bicicleta A2023</articulo>
+		<articulo>Bicicleta A2023</articulo> <!-- Se podría poner dentro de artícul cod="A2023"-->
 		<direccion>Calle Barco 4, tercer piso, letra A</direccion>
 		<fecha_entrega>19-5-2000</fecha_entrega>
 	</pedido>
