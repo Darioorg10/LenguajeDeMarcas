@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+
+    <!ELEMENT personas (persona+,departamento+)> <!-- Puede contener una persona o más, y a continuación debe aparecer uno o más departamentos -->
+    <!ELEMENT persona (nombre,direccion,fecha_nac,sueldo)> <!-- El elemento persona tiene que tener la siguiente sucesión de atributos, en ese orden -->
+    <!ATTLIST persona 
+        nacionalidad (española|europea) #IMPLIED
+        dni ID #REQUIRED   
+    > <!-- Un ID no puede empezar como los nmtokens por ejemplo con un número, y no puede repetirse en todo el documento-->
+    <!ELEMENT nombre (#PCDATA)> <!-- El elemento nombre contiene texto -->
+    <!ELEMENT direccion (#PCDATA)>
+    <!ATTLIST direccion cp NMTOKENS #IMPLIED> <!-- NMTOKEN si solo hay uno o NMTOKENS si hay varios, los atributos de este tipo pueden tener mayúsculas, minúsculas,
+    puntos, barra bajas, guiones... Pero no pueden llevar espacio, signo de interrogación...-->
+
+    <!ELEMENT fecha_nac EMPTY> <!-- Un elemento vacío --> <!-- CDATA es el más genérico-->
+    <!ATTLIST fecha_nac
+    dia CDATA #REQUIRED
+    mes CDATA #REQUIRED
+    anyo CDATA #REQUIRED>
+
+    <!ELEMENT sueldo (#PCDATA)>
+    <!ATTLIST sueldo moneda CDATA #FIXED "euro"> <!-- Está el required (obligatorio), implied (no es obligatorio) o fixed (si aparece, en este caso tiene que ser la palabra euro)-->
+
+    <!ELEMENT departamento EMPTY>
+    <!ATTLIST departamento
+    nombre (informática|economía) #REQUIRED
+    trabajadores IDREFS #REQUIRED
+    >
+]>
+
+<personas>
+    <persona nacionalidad="española" dni="_23456789N">
+        <nombre>Pepe</nombre>
+        <direccion cp="29800 29801">Calle La Muerte, 5</direccion>
+        <fecha_nac dia="12" mes="12" anyo="2000"></fecha_nac>
+        <sueldo>2000</sueldo>
+    </persona>
+
+    <persona dni="_23111111N">
+        <nombre>María</nombre>
+        <direccion>Calle La vida, 5</direccion>
+        <fecha_nac dia="02" mes="07" anyo="2002"/>
+        <sueldo>2000</sueldo>
+    </persona>
+
+    <departamento nombre="informática" trabajadores="_23456789N _23111111N"></departamento>
+
+    <departamento nombre="economía" trabajadores="_23111111N"></departamento>
+</personas>
