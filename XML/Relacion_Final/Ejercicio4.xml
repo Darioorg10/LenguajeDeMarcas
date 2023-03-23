@@ -10,7 +10,7 @@
 <!ELEMENT numeroseguridadsocial (#PCDATA)>
 ]>
 
-<lista_de_personas>
+<lista_de_personas> <!-- Comentario-->
 
     <persona nacionalidad="español">
     <nombre>José García</nombre>
