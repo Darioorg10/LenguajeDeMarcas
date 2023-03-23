@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musica [
+    <!ELEMENT musica (canciones+)>
+        <!ATTLIST musica duracion NMTOKENS #REQUIRED>
+        <!ATTLIST musica anio NMTOKENS #REQUIRED>
+    <!ELEMENT cancion (titulo,compositores,productores,sello,artista,fecha)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT compositores (compositor+)>
+    <!ELEMENT compositor (nombre,apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT productores (productor+)>
+    <!ELEMENT productor (nombre,apellidos)>
+    <!ELEMENT sello (#PCDATA)>
+    <!ELEMENT artista (#PCDATA)>
+    <!ELEMENT cd (#PCDATA)>
+    <!ATTLIST cd titulo CDATA #REQUIRED>
+    <!ELEMENT canciones (cancion+)>
+    <!ELEMENT fecha EMPTY>
+    <!ATTLIST fecha dia CDATA #REQUIRED>
+    <!ATTLIST fecha mes CDATA #REQUIRED>
+    <!ATTLIST fecha anio CDATA #REQUIRED>
+]>
+
+<musica duracion="4:47" anio="2008">
+    <canciones>
+        <cancion>
+            <titulo>Give it 2 me</titulo>
+            <compositores>
+                <compositor>
+                    <nombre>Pharrell</nombre>
+                    <apellidos>Williams</apellidos>
+                </compositor>
+            </compositores>
+            <productores>
+                <productor>
+                    <nombre>Pharrell</nombre>
+                    <apellidos>Williams</apellidos>
+                </productor>
+            </productores>
+            <sello>Warner Bros.Records</sello>
+            <artista>Madonna</artista>
+            <fecha dia="11" mes="3" anio="2023"/>
+        </cancion>
+    </canciones>
+
+</musica>
