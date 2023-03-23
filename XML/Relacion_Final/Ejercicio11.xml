@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro [
+<!ELEMENT Libro (Titulo, Contenido, Copyright)>
+    <!ATTLIST Libro id CDATA #REQUIRED>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Contenido (Capitulo, Separacion?)+>
+<!ELEMENT Capitulo (Tema, Seccion+)>
+    <!ATTLIST Capitulo materia CDATA #IMPLIED>
+<!ELEMENT Tema (#PCDATA)>
+<!ELEMENT Seccion (#PCDATA)>
+    <!ATTLIST Seccion apartados CDATA #REQUIRED dificil CDATA #IMPLIED>
+<!ELEMENT Separacion EMPTY>
+<!ELEMENT Copyright (#PCDATA)>
+]>
+
+<Libro id="libro1">
+    <Titulo>Trenzas del Mar Esmeralda</Titulo>
+    <Contenido>
+        <Capitulo materia="Huertos">
+            <Tema>Patatas</Tema>
+            <Seccion apartados="24">1</Seccion>            
+        </Capitulo>
+        <Separacion/>
+    </Contenido>
+    <Copyright>Brandon Sanderson</Copyright>
+</Libro>
