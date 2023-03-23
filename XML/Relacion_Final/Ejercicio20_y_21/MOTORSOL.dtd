@@ -1,0 +1,9 @@
+<!ELEMENT motor (pieza | empleados)+>
+<!ELEMENT pieza (#PCDATA)>
+<!ELEMENT empleados (responsable, comunes, familiaresACargo)>
+<!ELEMENT responsable (#PCDATA)>
+<!ELEMENT comunes (comun)+>
+<!ELEMENT familiaresACargo (hermanos | primos | abuelos)>
+<!ELEMENT hermanos (#PCDATA)>
+<!ELEMENT primos (#PCDATA)>
+<!ELEMENT abuelos (#PCDATA)>

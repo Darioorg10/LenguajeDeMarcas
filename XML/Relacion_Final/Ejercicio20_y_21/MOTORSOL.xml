@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE motor SYSTEM "MOTORSOL.dtd">
+<motor>
+    <pieza>
+        Cilindro
+    </pieza>
+    <pieza>
+        Tubo
+    </pieza>    
+    <empleados>
+        <responsable>Manolo García</responsable>
+        <comunes>
+            <comun>Juan Gabriel</comun>
+            <comun>Pepe Domínguez</comun>
+        </comunes>
+        <familiaresACargo>
+            <hermanos>0</hermanos>
+            <primos>2</primos>
+            <abuelos>4</abuelos>
+        </familiaresACargo>
+    </empleados>
+</motor>
