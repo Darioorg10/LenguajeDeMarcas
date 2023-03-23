@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pedido [
+<!ELEMENT Pedido (Destino, Ordenante, Observaciones, Contenido)>
+    <!ATTLIST Pedido fecha CDATA #REQUIRED>
+<!ELEMENT Destino (Nombre, Direccion, Ciudad, CodPostal)>
+<!ELEMENT Ordenante (Nombre, Direccion, Ciudad, CodPostal)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>
+<!ELEMENT Ciudad (#PCDATA)>
+<!ELEMENT CodPostal (#PCDATA)>
+<!ELEMENT Observaciones (#PCDATA)>
+<!ELEMENT Contenido (Producto+)>
+<!ELEMENT Producto (Nombre, Tipo?, Precio, Codigo)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Tipo (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT Codigo (#PCDATA)>
+<!ELEMENT Cantidad (#PCDATA)>
+]>
+
+<Pedido fecha="20 de Octubre de 1999">
+    <Destino>
+        <Nombre>Roberto Movilla</Nombre>
+        <Direccion>Plaza de la Duquesa 12</Direccion>
+        <Ciudad>Albacete</Ciudad>
+        <CodPostal>05020</CodPostal>
+    </Destino>
+    <Ordenante>
+        <Nombre>Alicia Abad</Nombre>
+        <Direccion>General Ricardos 56</Direccion>
+        <Ciudad>Madrid</Ciudad>
+        <CodPostal>28055</CodPostal>
+    </Ordenante>
+    <Observaciones>Es urgente el césped está muy alto</Observaciones>
+    <Contenido>
+        <Producto>
+            <Nombre>Cortadora de Césped</Nombre>
+            <Tipo>Eléctrica</Tipo>
+            <Precio>148.95 euros</Precio>
+            <Codigo>872-AA</Codigo>
+            <Cantidad>1</Cantidad>
+        </Producto>
+        <Producto>
+            <Nombre>Podadora</Nombre>
+            <Precio>7.98 euros</Precio>
+            <Codigo>926-FH</Codigo>
+            <Cantidad>3</Cantidad>
+        </Producto>
+    </Contenido>
+</Pedido>
