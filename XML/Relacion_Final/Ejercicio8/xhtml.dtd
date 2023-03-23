@@ -6,6 +6,7 @@
     <!ATTLIST meta content CDATA #IMPLIED>
     <!ATTLIST meta charset CDATA #IMPLIED>
 <!ELEMENT title (#PCDATA)>
+<!ENTITY iacute "í">
 <!ELEMENT body (p+)>
     <!ATTLIST body bgcolor CDATA #REQUIRED>
 <!ELEMENT p (#PCDATA)>
