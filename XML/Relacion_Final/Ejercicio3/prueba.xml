@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE agenda SYSTEM "ejemplo-agenda.dtd">
+
 <agenda>
 <persona>
 <nombre>Ricardo Borriquero</nombre>

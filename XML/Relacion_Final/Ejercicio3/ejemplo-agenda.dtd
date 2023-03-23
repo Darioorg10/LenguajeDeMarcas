@@ -1,5 +1,5 @@
 <!ELEMENT agenda (persona)+>
 <!ELEMENT persona (nombre, tlf)>
-<!ATTLIST persona id #REQUIRED>
+<!ATTLIST persona id CDATA #IMPLIED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT tlf (#PCDATA)>
