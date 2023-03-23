@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco [
+<!ELEMENT banco (sucursal)+>
+<!ELEMENT sucursal (cuentaCorriente)+>
+    <!ATTLIST sucursal id CDATA #REQUIRED>
+<!ELEMENT cuentaCorriente (cliente, domiciliaciones)+>
+    <!ATTLIST cuentaCorriente codigo CDATA #REQUIRED>
+<!ELEMENT cliente (operaciones | privilegios | prestamosConcedidos)>
+<!ELEMENT operaciones (#PCDATA)> 
+<!ELEMENT privilegios (#PCDATA)> 
+<!ELEMENT prestamosConcedidos (#PCDATA)>
+<!ELEMENT domiciliaciones (#PCDATA)> 
+]>
+
+<banco>
+    <sucursal id="SU1">
+        <cuentaCorriente codigo="7891">
+            <cliente nif="09115Y">
+                <operaciones>
+                    Retirada de dinero
+                </operaciones>
+                <privilegios>
+                    Máximos
+                </privilegios>
+                <prestamosConcedidos>
+                    2
+                </prestamosConcedidos>
+            </cliente>
+            <cliente nif="37845L">
+                <operaciones>
+                    Ingreso de dinero
+                </operaciones>
+                <privilegios>
+                    Mínimos
+                </privilegios>
+                <prestamosConcedidos>
+                    0
+                </prestamosConcedidos>
+            </cliente>
+            <domiciliaciones>
+                Málaga, Madrid
+            </domiciliaciones>
+        </cuentaCorriente>
+    </sucursal>
+    <sucursal id="SU2">
+        <cuentaCorriente codigo="4561">
+            <cliente nif="078945Z">
+                <operaciones>
+                    Retirada de dinero
+                </operaciones>
+                <privilegios>
+                    Medios
+                </privilegios>
+                <prestamosConcedidos>
+                    0
+                </prestamosConcedidos>
+            </cliente>
+            <domiciliaciones>
+                Barcelona, Valencia
+            </domiciliaciones>
+        </cuentaCorriente>
+    </sucursal>
+</banco>
