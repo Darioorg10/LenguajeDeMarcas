@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE antidotos [
+<!ELEMENT antidotos (antidoto+)>
+<!ELEMENT antidoto ((nombre, cura)|(cura, nombre))> <!-- Esto significa que nos da igual el orden-->
+    <!ATTLIST antidoto num ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cura (#PCDATA)>
+<!ENTITY adn "ácido desoxirribonucleico"> <!-- Esto es una entidad normal-->
+]>
+<antidotos>
+    <antidoto num="n_1">
+        <nombre>Malaria</nombre>
+        <cura> jhkf lshjdjfk skdjfksdj &adn;</cura> <!-- Aquí aparece la entidad-->
+    </antidoto>
+</antidotos>

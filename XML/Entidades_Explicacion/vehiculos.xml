@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Tiene que ser externo el dtd-->
+<!DOCTYPE vehiculos SYSTEM "vehiculos.dtd">
+
+<vehiculos>
+    <coche>
+        <ruedas>4</ruedas>
+        <motor>gfdgd</motor>
+        <puertas>4</puertas>
+    </coche>
+    
+    <camion>
+        <ruedas>fgdg</ruedas>
+        <motor>dsfg</motor>
+        <puertas>sdfg</puertas>
+        <carga>sdfg</carga>
+    </camion>
+
+    <tren>
+        <ruedas>sdgf</ruedas>
+        <motor>sdfg</motor>
+        <vagones>sfg</vagones>
+    </tren>
+
+    <avion>
+        <ruedas>fgdfg</ruedas>
+        <motor>sdfg</motor>
+        <capacidad>sfdg</capacidad>
+    </avion>
+
+    <moto>
+        <ruedas>sfg</ruedas>
+        <motor>sdfg</motor>
+    </moto>
+</vehiculos>
