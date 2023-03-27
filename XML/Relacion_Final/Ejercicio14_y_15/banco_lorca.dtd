@@ -4,6 +4,7 @@
 <!ELEMENT cuentaCorriente (cliente, domiciliaciones)+>
     <!ATTLIST cuentaCorriente codigo CDATA #REQUIRED>
 <!ELEMENT cliente (operaciones | privilegios | prestamosConcedidos)>
+    <!ATTLIST cliente nif ID #REQUIRED>
 <!ELEMENT operaciones (#PCDATA)> 
 <!ELEMENT privilegios (#PCDATA)> 
 <!ELEMENT prestamosConcedidos (#PCDATA)>
