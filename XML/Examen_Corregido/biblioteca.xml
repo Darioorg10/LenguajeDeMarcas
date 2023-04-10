@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca system "biblioteca.dtd"[
+<!ELEMENT biblioteca (libros, autores, editoriales)>
+]>
+<biblioteca>
+    <libros>
+        <libro isbn="_1-55655-767-6" autores="_23456788P _23456787G" editorial="McGraw-Hill">
+            <nombre>Fundamentos de bases de datos</nombre>
+            <precio moneda="euro">40</precio>
+            <fecha_publi>2003</fecha_publi>
+            <revisiones>
+                <revision autor="_23456789N">
+                    <comentario>Es un libro de texto básico</comentario>
+                    <valoracion>8.5</valoracion>
+                </revision>
+            </revisiones>
+        </libro>
+        <libro isbn="_1-55655-563-2" autores="_23456788P _23456787G" editorial="Anaya">
+            <nombre>Fundamentos de bases de datos 2</nombre>
+            <precio moneda="euro">45</precio>
+            <fecha_publi>2005</fecha_publi>
+            <revisiones>
+                <revision autor="_23456789N">
+                    <comentario>Es un buen libro</comentario>
+                    <valoracion>9</valoracion>
+                </revision>
+            </revisiones>
+        </libro>
+        <libro isbn="_1-4444-563-2" autores="_23456788P" editorial="Santillana">
+            <nombre>Fundamentos de bases de datos 3</nombre>
+            <precio moneda="euro">50</precio>
+            <fecha_publi>2008</fecha_publi>
+            <revisiones>
+                <revision autor="_23456789N">
+                    <comentario>Es un libro de texto básico</comentario>
+                    <valoracion>8.5</valoracion>
+                </revision>
+                <revision autor="_23456788P">
+                    <comentario>Esto qué es</comentario>
+                    <valoracion>1</valoracion>
+                </revision>
+                <revision autor="_11111111N">
+                    <comentario>Me encantó</comentario>
+                    <valoracion>10</valoracion>
+                </revision>
+            </revisiones>
+        </libro>
+    </libros>
+    <autores>
+        <autor dni="_23456788P">
+            <nombre>Abraham</nombre>
+            <apellidos>Silberschatz</apellidos>
+            <email>silbers@hotmail.com</email>
+        </autor>
+        <autor dni="_23456787G">
+            <nombre>Henry</nombre>
+            <apellidos>Korth</apellidos>
+            <email>korth@hotmail.com</email>
+        </autor>
+        <autor dni="_23456789N">
+            <nombre>James</nombre>
+            <apellidos>Smith</apellidos>
+        </autor>
+        <autor dni="_11111111N">
+            <nombre>Juan</nombre>
+            <apellidos>Aguilar</apellidos>
+        </autor>        
+    </autores>
+    <editoriales>
+        <editorial nombre="McGraw-Hill">
+            <oficina>Av. Santander s/n</oficina>
+            <web>http://mcgrawhill.es</web>
+        </editorial>
+        <editorial nombre="Anaya">
+            <oficina>Av. Bilbao s/n</oficina>
+            <web>http://anaya.es</web>
+        </editorial>
+        <editorial nombre="Santillana">
+            <oficina>Av. San Mamés s/n</oficina>
+            <web>http://santillana.es</web>
+        </editorial>
+    </editoriales>
+</biblioteca>
