@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="root-element">
-        
-    </xs:element>
+
+    <xs:element name="notas" type="tipoNotas"/>
+
+    <xs:complexType name="tipoNotas">
+        <xs:sequence>
+            <xs:element name="nota" type="tipoNota"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoNota">
+        <xs:sequence>
+            <xs:element name="para" type="xs:string" maxOccurs="unbounded"/>
+            <xs:element name="de" type="xs:string" maxOccurs="unbounded"/>
+            <xs:element name="titulo" type="xs:string" maxOccurs="unbounded"/>
+            <xs:element name="contenido" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
 </xs:schema>

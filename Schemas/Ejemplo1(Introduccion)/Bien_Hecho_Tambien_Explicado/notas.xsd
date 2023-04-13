@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="notas" type="tipoNotas"/> <!-- Todo elemento tiene mínimo un nombre y un tipo-->                
+
+    <xs:complexType name="tipoNotas"> <!-- Los elementos con elementos dentro, atributos o vacíos son complejos-->
+        <xs:sequence>
+            <xs:element name="nota" type="tipoNota" minOccurs="2" maxOccurs="unbounded"/> <!-- Esto es que sí o sí tienen que ser mínimo dos y máximo ilimitado-->           
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoNota">
+        <xs:all> <!-- No están los elementos con el mismo orden, si lo estuvieran, sería una secuencia-->
+            <xs:element name="a" type="xs:string"/>
+            <xs:element name="cuerpo" type="xs:string"/>
+            <xs:element name="de" type="xs:string"/>
+            <xs:element name="cabecera" type="xs:string"/>
+            <xs:element name="fin" type="xs:string" minOccurs="0"/> <!-- Ponemos el minOccurs a 0 porque no es obligatorio-->
+            <xs:element name="edad" type="tipoEdad"/>
+            <xs:element name="enviado" type="tipoVacio" minOccurs="0"/>
+        </xs:all>
+        <xs:attribute name="id" type="xs:ID" use="required"/> <!-- Es obligatorio ponerlo-->
+    </xs:complexType>
+
+    <xs:complexType name="tipoEdad" mixed="true"> <!-- IMPORTANTE: ESTO SIGNIFICA QUE TIENE ATRIBUTO Y CONTENIDO DENTRO-->
+        <xs:attribute name="anyo" type="xs:positiveInteger" fixed="40"/> <!-- Si tuviera que ser siempre 40-->
+    </xs:complexType>
+
+    <xs:complexType name="tipoVacio">
+
+    </xs:complexType>
+</xs:schema>
