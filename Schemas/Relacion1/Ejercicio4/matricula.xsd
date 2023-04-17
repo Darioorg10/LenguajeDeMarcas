@@ -22,7 +22,7 @@
 
     <xs:complexType name="tipoDomicilios">
         <xs:sequence>
-            <xs:element name="domicilio" type="tipoDomicilio" maxOccurs="unbounded"/>
+            <xs:element name="domicilio" type="tipoDomicilio" maxOccurs="3"/> <!-- Vamos a hacerlo diferente para hacer cosas nuevas (con restricción)-->
         </xs:sequence>
     </xs:complexType>
 
@@ -30,8 +30,16 @@
         <xs:sequence>
             <xs:element name="nombre" type="xs:string"/>
         </xs:sequence>
-        <xs:attribute name="tipo" type="xs:string"/>
+        <xs:attribute name="tipo" type="tipoVivienda"/>
     </xs:complexType>
+
+    <xs:simpleType name="tipoVivienda">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="otros"/> <!-- Hacemos una restricción para que solo se pueda poner o casa familiar, habitual o secundaria-->
+            <xs:enumeration value="habitual"/>
+            <xs:enumeration value="familiar"/>            
+        </xs:restriction>
+    </xs:simpleType>
 
     <xs:complexType name="tipoPago">
         <xs:sequence>
