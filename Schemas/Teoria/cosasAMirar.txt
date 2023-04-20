@@ -1,0 +1,2 @@
+Tipo mixto (en el que viene todo apuntado)
+Choice (en personas)
