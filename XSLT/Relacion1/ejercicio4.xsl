@@ -5,9 +5,17 @@
         <html>
             <head>                
                 <title>Ejercicio 4</title>
+                <style>
+                    table{
+                        border-collapse:collapse
+                    }
+                    table,td{
+                        border:1px solid black
+                    }
+                </style>
             </head>
             <body>
-                <table border="1"><xsl:apply-templates/></table>
+                <table><xsl:apply-templates/></table>
             </body>
         </html>
     </xsl:template>

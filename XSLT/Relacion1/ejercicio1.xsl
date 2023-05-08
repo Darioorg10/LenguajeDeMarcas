@@ -7,7 +7,7 @@
                 <title>Ejercicio 1</title>
             </head>
             <body>
-                <p><xsl:apply-templates/></p>
+                <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
@@ -16,7 +16,7 @@
 
 
     <xsl:template match="ciclo">
-        <xsl:value-of select="nombre"/>
+        <p><xsl:value-of select="nombre"/></p>
     </xsl:template>
 
 
