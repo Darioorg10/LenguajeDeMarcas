@@ -4,7 +4,11 @@
     <xsl:template match="/">
         <html>
             <head>                
-                <title>Ejercicio 6</title>
+                <title>Ejercicio 7</title>
+                <style>
+                    table,th, td{border:1px solid black}
+                    table{border-collapse:collapse; text-align:center}
+                </style>
             </head>
             <body>                
                 
@@ -17,9 +21,14 @@
                     <xsl:value-of select="ies/@nombre"/>    
                     </a>                
                 </p>                
-                <ul>
+                <table>
+                    <tr>
+                        <th>Nombre del ciclo</th>
+                        <th>Grado</th>
+                        <th>Año del título</th>
+                    </tr>
                     <xsl:apply-templates/>
-                </ul>                                            
+                </table>
                 
             </body>
         </html>
@@ -27,7 +36,11 @@
     
 
     <xsl:template match="ciclo">
-        <li><xsl:value-of select="nombre"/></li>
+        <tr>
+            <td><xsl:value-of select="nombre"/></td>
+            <td><xsl:value-of select="grado"/></td>
+            <td><xsl:value-of select="decretoTitulo/@año"/></td>
+        </tr>
     </xsl:template>
 
 
